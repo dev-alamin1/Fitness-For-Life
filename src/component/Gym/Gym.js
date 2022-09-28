@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Practice from '../Practice/Practice';
+import Profile from '../Profile/Profile';
 import './Gym.css';
 
 const Gym = () => {
@@ -22,7 +23,7 @@ const Gym = () => {
             </div>
             
             <div className='gym-other-info'>
-                <h2>Other info</h2>
+                <Profile></Profile>
             </div>
         </div>
     );
