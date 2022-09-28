@@ -32,6 +32,7 @@ const Gym = () => {
                     <Profile></Profile>
                     <Break></Break>
                     <Exercise></Exercise>
+                    <ActivityButton></ActivityButton>
                     
                 </div>
             </div>
