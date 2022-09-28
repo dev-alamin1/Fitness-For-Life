@@ -24,6 +24,10 @@ const Gym = () => {
          setExerciseTime(excerciseTime + time);
      }
 
+     const [breakTime,setBreakTime] = useState(0);
+     const handelerBreakTime = (time)=>{
+            setBreakTime(time);
+     }
    
 
     return (
@@ -38,8 +42,8 @@ const Gym = () => {
             <div className='gym-other-info'>
                 <div className='gym-other-info-container'>
                     <Profile></Profile>
-                    <Break></Break>
-                    <Exercise excerciseTime={excerciseTime}></Exercise>
+                    <Break handelerBreakTime={handelerBreakTime}></Break>
+                    <Exercise excerciseTime={excerciseTime} breakTime={breakTime}></Exercise>
                     <ActivityButton></ActivityButton>
                     
                 </div>

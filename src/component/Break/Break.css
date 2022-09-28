@@ -16,6 +16,13 @@
     text-align: center;
 }
 
+.break-info button{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
 .break{
     padding-top: 10px;
 }

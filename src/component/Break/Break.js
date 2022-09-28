@@ -1,23 +1,29 @@
 import React from 'react';
 import './Break.css';
 
-const Break = () => {
+const Break = ({handelerBreakTime}) => {
+
+
     return (
         <div className='break'>
             <p className='break-title'><strong>Add A Break</strong></p>
             <div className='break-info'>
                 <div>
-                    <p><strong>10s</strong></p>
+                   <button onClick={()=>handelerBreakTime(10)}>10s</button>
                 </div>
+
                 <div>
-                    <p><strong>20s</strong></p>
+                    <button onClick={()=>handelerBreakTime(20)}>20s</button>
                 </div>
+
                 <div>
-                    <p><strong>30s</strong></p>
+                    <button onClick={()=>handelerBreakTime(30)}>30s</button>
                 </div>
+
                 <div>
-                    <p><strong>40s</strong></p>
+                    <button onClick={()=>handelerBreakTime(40)}>40s</button>
                 </div>
+
             </div>
             
         </div>
