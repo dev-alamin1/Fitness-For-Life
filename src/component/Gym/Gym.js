@@ -16,6 +16,14 @@ const Gym = () => {
             .then(data =>setPractice(data));
     },[]);
 
+
+    // handale add to list button 
+
+     const [excerciseTime, setExerciseTime] = useState(0);
+     const handleExeciseTime = (time) => {
+         setExerciseTime(excerciseTime + time);
+     }
+
    
 
     return (
@@ -23,7 +31,7 @@ const Gym = () => {
             <div className='gym-practice'>
 
                 {
-                    practices.map(practice =><Practice practice={practice} key={practice.id} ></Practice>)
+                    practices.map(practice =><Practice practice={practice} key={practice.id} handleExeciseTime={handleExeciseTime}></Practice>)
                 }
             </div>
             
@@ -31,7 +39,7 @@ const Gym = () => {
                 <div className='gym-other-info-container'>
                     <Profile></Profile>
                     <Break></Break>
-                    <Exercise></Exercise>
+                    <Exercise excerciseTime={excerciseTime}></Exercise>
                     <ActivityButton></ActivityButton>
                     
                 </div>

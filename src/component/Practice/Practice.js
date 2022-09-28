@@ -2,8 +2,8 @@ import React from 'react';
 import './Practice.css';
 
 const Practice = (props) => {
-    const {practice}=props;
-    const {image,title,time,id} = practice;
+    const {practice,handleExeciseTime}=props;
+    const {image,title,time} = practice;
    
     return (
         <div className='card'>
@@ -17,7 +17,7 @@ const Practice = (props) => {
             </div>
 
             <div>
-                <button className='addtolist-button'>Add To list</button>
+                <button onClick={()=>handleExeciseTime(time)} className='addtolist-button'>Add To list</button>
             </div>
         </div>
     );
