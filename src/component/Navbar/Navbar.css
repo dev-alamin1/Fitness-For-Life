@@ -1,0 +1,15 @@
+.navbar{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(28, 43, 53, 1);
+    color: #FFF;
+    margin-bottom: 5px;
+    
+}
+
+.website-title{
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.activity-button{
+    padding: 10px 40px;
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+   
+}
+/* 
+.activity-button:hover{
+    background-color: white;
+    color: #000;
+} */

@@ -26,6 +26,7 @@ const Profile = () => {
                     <p>Old</p>
                 </div>
             </div>
+            
         </div>
     );
 };

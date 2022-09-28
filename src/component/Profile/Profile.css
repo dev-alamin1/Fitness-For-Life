@@ -6,9 +6,8 @@
 .profile{
     width: 95%;
     height: 150px;
-    border: 1px solid #555;
     border-radius: 5px;
-    margin: 5px auto;
+    margin: 10px auto;
 }
 
 .avatar {
@@ -37,6 +36,7 @@
     gap: 10px;
     background-color: aliceblue;
     border-radius: 5px;
+    padding: 8px;
     
     
 }

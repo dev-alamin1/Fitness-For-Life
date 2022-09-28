@@ -14,3 +14,58 @@
 .gym-other-info{
     background-color: lightblue;
 }
+
+
+.gym-other-info-container{
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+/* mobile devices */
+@media screen and (max-width:576px)
+{
+
+   .gym-practice-container{
+    grid-template-columns: auto;
+    
+}
+
+   .gym-practice{
+    grid-template-columns: auto;
+    justify-content: center;
+}
+
+.gym-other-info{
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+}
+
+/* medium devices */
+
+
+@media screen and (min-width:577px) and (max-width:800px) 
+{
+   
+   .gym-practice-container{
+
+    grid-template-columns: auto;
+    
+}
+
+   .gym-practice{
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+
+.gym-other-info{
+    width: 620px;
+    margin: 0 auto;
+}
+
+}
+
+
