@@ -1,0 +1,12 @@
+.gym-practice-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 0px 40px;
+    gap: 30px;
+}
+
+.gym-practice{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+}
