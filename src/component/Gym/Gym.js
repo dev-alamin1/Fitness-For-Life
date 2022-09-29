@@ -27,7 +27,20 @@ const Gym = () => {
      const [breakTime,setBreakTime] = useState(0);
      const handelerBreakTime = (time)=>{
             setBreakTime(time);
+
+            // add break time to localstorage
+            localStorage.setItem("break-time",time);
      }
+
+     // load breaktime from localstorage
+
+     useEffect(()=>{
+        let time = localStorage.getItem("break-time");
+        if(time)
+        {
+            setBreakTime(parseInt(time));
+        }
+     },[]);
    
 
     return (

@@ -23,7 +23,7 @@
 }
 
 /* mobile devices */
-@media screen and (max-width:576px)
+@media screen and (max-width:575px)
 {
 
    .gym-practice-container{
@@ -36,10 +36,10 @@
     justify-content: center;
 }
 
-.gym-other-info{
+/* .gym-other-info{
     width: 300px;
     margin: 0 auto;
-}
+} */
 
 
 }
@@ -47,7 +47,7 @@
 /* medium devices */
 
 
-@media screen and (min-width:577px) and (max-width:800px) 
+@media screen and (min-width:576px) and (max-width:767px) 
 {
    
    .gym-practice-container{
@@ -61,10 +61,27 @@
     justify-content: center;
 }
 
-.gym-other-info{
+/* .gym-other-info{
     width: 620px;
     margin: 0 auto;
+} */
+
 }
+
+
+@media screen and (min-width:768px) and (max-width:991px) 
+{
+
+   .gym-practice-container{
+    grid-template-columns: auto auto;
+    justify-content: center;
+    
+}
+
+   .gym-practice{
+    grid-template-columns: auto auto;
+}
+
 
 }
 
