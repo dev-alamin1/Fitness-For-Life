@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ActivityButton from '../ActivityButton/ActivityButton';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPersonCircleQuestion } from '@fortawesome/free-solid-svg-icons'
 import Break from '../Break/Break';
 import Exercise from '../Exercise/Exercise';
 import Practice from '../Practice/Practice';
@@ -17,7 +19,7 @@ const Gym = () => {
     },[]);
 
 
-    // handale add to list button 
+    // handale addtolist button 
 
      const [excerciseTime, setExerciseTime] = useState(0);
      const handleExeciseTime = (time) => {
@@ -54,7 +56,7 @@ const Gym = () => {
 
                 <div className='qNa-section'>
 
-                    <h2 className='title'>Question and Answer Section</h2>
+                    <h2 className='title'>Question and Answer Section <FontAwesomeIcon style={{marginRight:'5px'}} icon={faPersonCircleQuestion} /></h2>
 
                     <details>
                     <summary>Question No 1: How Does React Work ?</summary>

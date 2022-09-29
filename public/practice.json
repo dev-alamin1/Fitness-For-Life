@@ -1,44 +1,50 @@
 [
   {
     "id": "63346bf58c45eb293b16bb98",
-    "title": "Side view of two attractive sports women on running track. Girls on treadmill",
-    "time": 20,
-    "image": "https://image.shutterstock.com/image-photo/side-view-two-attractive-sports-600w-721502437.jpg"
+    "title": "Skipping Rope",
+    "desc" :"Skipping or jumping rope is common among young children, but very few of us know t...",
+    "time": 200,
+    "image": "https://cdn.cdnparenting.com/articles/2019/03/04134945/562323112-H-768x525.webp"
   },
   
   {
     "id": "63346bf58c45eb293b16bb96",
-    "title": "Fit young man in sportswear focused on lifting a dumbbell during an exercise class in a gym",
-    "time": 30,
-    "image": "https://image.shutterstock.com/image-photo/fit-young-man-sportswear-focused-600w-1043370892.jpg"
+    "title": "Dumble",
+    "desc":"Dumbbell Exercises for Building Muscle. Develop total-body strength and build max...",
+    "time": 120,
+    "image": "https://images.pexels.com/photos/3289711/pexels-photo-3289711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
 
   },
   
   {
     "id": "63346bf58c45eb293b16bb95",
-    "title": "Cross fit fitness TRX training exercises at gym man side push-up workout",
-    "time": 40,
-    "image": "https://image.shutterstock.com/image-photo/cross-fit-fitness-trx-training-600w-725920981.jpg"
+    "title": "Push Up",
+     "desc":"By raising and lowering the body using the arms, push-ups exercise the pectora...",
+    "time": 50,
+    "image": "https://images.pexels.com/photos/3837474/pexels-photo-3837474.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   
   {
     "id": "63346bf58c45eb293b16bb94",
-    "title": "Men with battle rope in functional training fitness gym",
-    "time": 50,
-    "image": "https://image.shutterstock.com/image-photo/men-battle-rope-functional-training-600w-363373637.jpg"
+    "title": "Rope Functional Practice",
+     "desc":"The battle rope wave is the most classic battle rope exercise. It's great for ...",
+    "time": 150,
+    "image": "https://images.pexels.com/photos/6551174/pexels-photo-6551174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   
   {
     "id": "63346bf58c45eb293b16bb93",
-    "title": "Athletic man training in modern gym",
-    "time": 30,
-    "image": "https://image.shutterstock.com/image-photo/athletic-man-training-modern-gym-600w-552614143.jpg"
+    "title": "Trademil Running ",
+     "desc":"One of the most popular types of home exercise equipment is the treadmill, which ...",
+    "time": 300,
+    "image": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
   
   {
     "id": "63346bf58c45eb293b16bb92",
-    "title": "Shirtless man flipping heavy tire at gym",
-    "time": 40,
-    "image": "https://image.shutterstock.com/image-photo/shirtless-man-flipping-heavy-tire-600w-713015449.jpg"
+    "title": "Flipping heavy tire ",
+     "desc":"Perform a tire flip by squatting down, gripping the tire with an underhand grip....",
+    "time": 100,
+    "image": "https://images.pexels.com/photos/4720823/pexels-photo-4720823.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   }
  ]

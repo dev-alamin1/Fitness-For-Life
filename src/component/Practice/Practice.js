@@ -3,7 +3,7 @@ import './Practice.css';
 
 const Practice = (props) => {
     const {practice,handleExeciseTime}=props;
-    const {image,title,time} = practice;
+    const {image,title,time,desc} = practice;
    
     return (
         <div className='card'>
@@ -12,8 +12,9 @@ const Practice = (props) => {
             </div>
 
             <div className='practice-info'>
-                <p>{title}</p>
-                <p>Time : {time} sec</p>
+                <p className='practice-hightlight'>{title}</p>
+                <p className='desc'>{desc}</p>
+                <p> <span className='practice-hightlight'>Time Required :</span> {time} sec</p>
             </div>
 
             <div>
